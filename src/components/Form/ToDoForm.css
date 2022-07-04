@@ -1,0 +1,44 @@
+.todo_container {
+  padding: 1.3rem 1.25rem;
+  margin-bottom: 1.563rem;
+  background-color: var(--background);
+  border-radius: 5px;
+
+  display: flex;
+  align-items: flex-end;
+}
+
+input {
+  color: var(--font-color);
+  font-family: inherit;
+  font-size: inherit;
+  width: 90%;
+
+  /* line-height??? */
+  border: none;
+  background-color: var(--background);
+}
+
+input:focus {
+  outline: none;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: var(--dark-grayish-blue);
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: var(--dark-grayish-blue);
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: var(--dark-grayish-blue);
+}
+
+input:focus::placeholder {
+  color: transparent;
+}

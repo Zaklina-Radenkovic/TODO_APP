@@ -1,0 +1,15 @@
+.todos_list {
+  color: var(--font-color);
+  background-color: var(--background);
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(32, 32, 32, 0.003);
+
+  display: flex;
+  flex-direction: column;
+}
+
+.todo_list {
+  list-style: none;
+}
+
+

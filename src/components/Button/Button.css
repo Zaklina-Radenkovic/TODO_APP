@@ -1,0 +1,30 @@
+.btn,
+.btn-sbm {
+  padding: 0.625rem;
+  margin-right: 1.563rem;
+  background: transparent;
+  box-shadow: 2px 1000px 1px var(--background) inset;
+  border: 1px solid var(--border-grayish-blue);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: hover 0.2s;
+}
+
+.btn:hover {
+  border: 1px solid transparent;
+  background-image: linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+}
+
+.btn,
+.btn-sbm:focus {
+  outline: none;
+}
+
+.btn:focus {
+  background-image: url(../../images/icon-check.svg),
+    linear-gradient(135deg, hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+  border: none;
+  box-shadow: none;
+  background-repeat: no-repeat;
+  background-position: center;
+}
